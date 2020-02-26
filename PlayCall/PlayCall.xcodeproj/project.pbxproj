@@ -12,7 +12,8 @@
 		128487EE2406FD9E000DC6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128487EC2406FD9E000DC6F5 /* Main.storyboard */; };
 		128487F02406FDA1000DC6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128487EF2406FDA1000DC6F5 /* Assets.xcassets */; };
 		128487F32406FDA1000DC6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128487F12406FDA1000DC6F5 /* LaunchScreen.storyboard */; };
-		128FBED62407100F001CCE8A /* PlayingLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBED52407100F001CCE8A /* PlayingLevel.storyboard */; };
+		128FBED824071119001CCE8A /* SportSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBED724071119001CCE8A /* SportSelection.storyboard */; };
+		128FBEDA24071133001CCE8A /* LevelSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBED924071133001CCE8A /* LevelSelection.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		128487EF2406FDA1000DC6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128487F22406FDA1000DC6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128487F42406FDA1000DC6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		128FBED52407100F001CCE8A /* PlayingLevel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayingLevel.storyboard; sourceTree = "<group>"; };
+		128FBED724071119001CCE8A /* SportSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SportSelection.storyboard; sourceTree = "<group>"; };
+		128FBED924071133001CCE8A /* LevelSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LevelSelection.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				128487EC2406FD9E000DC6F5 /* Main.storyboard */,
-				128FBED52407100F001CCE8A /* PlayingLevel.storyboard */,
+				128FBED924071133001CCE8A /* LevelSelection.storyboard */,
+				128FBED724071119001CCE8A /* SportSelection.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,8 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				128487F32406FDA1000DC6F5 /* LaunchScreen.storyboard in Resources */,
+				128FBEDA24071133001CCE8A /* LevelSelection.storyboard in Resources */,
 				128487F02406FDA1000DC6F5 /* Assets.xcassets in Resources */,
-				128FBED62407100F001CCE8A /* PlayingLevel.storyboard in Resources */,
+				128FBED824071119001CCE8A /* SportSelection.storyboard in Resources */,
 				128487EE2406FD9E000DC6F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
