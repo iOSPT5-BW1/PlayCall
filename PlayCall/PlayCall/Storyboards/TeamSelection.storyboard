@@ -25,7 +25,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXg-4t-d9y">
-                                        <rect key="frame" x="0.0" y="31.5" width="374" height="216"/>
+                                        <rect key="frame" x="0.0" y="31" width="374" height="216"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4F-D0-wsA">
                                         <rect key="frame" x="0.0" y="247.5" width="374" height="50"/>
@@ -37,6 +37,9 @@
                                         <state key="normal" title="NEXT">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="j9n-Sn-99P" kind="presentation" identifier="ToPositionSelectionStoryboard" id="6TM-5j-6cc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -53,6 +56,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fi-yV-8wm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="113"/>
+        </scene>
+        <!--PositionSelectionStoryboard-->
+        <scene sceneID="tWQ-BU-UTs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="PositionSelectionStoryboard" storyboardName="PositionSelection" referencedIdentifier="PositionSelectionStoryboard" id="j9n-Sn-99P" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dal-JF-rPd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="537"/>
         </scene>
     </scenes>
 </document>
