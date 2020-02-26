@@ -14,6 +14,7 @@
 		128487F32406FDA1000DC6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128487F12406FDA1000DC6F5 /* LaunchScreen.storyboard */; };
 		128FBED824071119001CCE8A /* SportSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBED724071119001CCE8A /* SportSelection.storyboard */; };
 		128FBEDA24071133001CCE8A /* LevelSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBED924071133001CCE8A /* LevelSelection.storyboard */; };
+		128FBEDC24071567001CCE8A /* TeamSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FBEDB24071567001CCE8A /* TeamSelection.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		128487F42406FDA1000DC6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128FBED724071119001CCE8A /* SportSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SportSelection.storyboard; sourceTree = "<group>"; };
 		128FBED924071133001CCE8A /* LevelSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LevelSelection.storyboard; sourceTree = "<group>"; };
+		128FBEDB24071567001CCE8A /* TeamSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TeamSelection.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				128487EC2406FD9E000DC6F5 /* Main.storyboard */,
 				128FBED924071133001CCE8A /* LevelSelection.storyboard */,
 				128FBED724071119001CCE8A /* SportSelection.storyboard */,
+				128FBEDB24071567001CCE8A /* TeamSelection.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128FBEDC24071567001CCE8A /* TeamSelection.storyboard in Resources */,
 				128487F32406FDA1000DC6F5 /* LaunchScreen.storyboard in Resources */,
 				128FBEDA24071133001CCE8A /* LevelSelection.storyboard in Resources */,
 				128487F02406FDA1000DC6F5 /* Assets.xcassets in Resources */,

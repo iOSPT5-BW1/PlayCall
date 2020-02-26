@@ -15,44 +15,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5ta-6Y-t8A">
-                                <rect key="frame" x="20" y="302" width="374" height="343"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UO7-Ni-rdt">
+                                <rect key="frame" x="20" y="285" width="374" height="348"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At what level do you play at?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNO-Ev-PoL">
-                                        <rect key="frame" x="14" y="0.0" width="346" height="61"/>
-                                        <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT LEVEL DO YOU PLAY AT?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCJ-U4-Yez">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="82"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgp-Ux-j7d">
-                                        <rect key="frame" x="27" y="69" width="320" height="216"/>
+                                    <pickerView contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDD-Kc-z8g">
+                                        <rect key="frame" x="0.0" y="82" width="374" height="216"/>
                                     </pickerView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xn6-0a-L1V">
-                                        <rect key="frame" x="20" y="293" width="334" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkJ-gS-hvb">
+                                        <rect key="frame" x="0.0" y="298" width="374" height="50"/>
                                         <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="ke7-GO-dSB"/>
+                                            <constraint firstAttribute="height" constant="50" id="vKz-Tw-BrL"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
-                                        <state key="normal" title="GET STARTED">
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="NEXT">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="EWY-oe-udf" kind="presentation" id="87U-K2-30q"/>
+                                            <segue destination="EWY-oe-udf" kind="presentation" identifier="ToSportSelectionStoryboard" modalPresentationStyle="fullScreen" id="62j-4q-gcL"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Xn6-0a-L1V" firstAttribute="leading" secondItem="5ta-6Y-t8A" secondAttribute="leading" constant="20" symbolic="YES" id="5Xa-gx-tvg"/>
-                                    <constraint firstAttribute="trailing" secondItem="Xn6-0a-L1V" secondAttribute="trailing" constant="20" symbolic="YES" id="l2r-Ex-yiG"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5ta-6Y-t8A" secondAttribute="trailing" constant="20" id="S2Z-LP-AU1"/>
-                            <constraint firstItem="5ta-6Y-t8A" firstAttribute="top" secondItem="3ml-9A-0q2" secondAttribute="top" constant="258" id="ouU-Fv-SZo"/>
-                            <constraint firstItem="5ta-6Y-t8A" firstAttribute="leading" secondItem="SOb-rS-8rR" secondAttribute="leading" constant="20" id="q5S-Un-tu4"/>
+                            <constraint firstItem="3ml-9A-0q2" firstAttribute="trailing" secondItem="UO7-Ni-rdt" secondAttribute="trailing" constant="20" id="gFd-B8-m8r"/>
+                            <constraint firstItem="UO7-Ni-rdt" firstAttribute="top" secondItem="3ml-9A-0q2" secondAttribute="top" constant="241" id="oUu-Wa-Aoc"/>
+                            <constraint firstItem="UO7-Ni-rdt" firstAttribute="leading" secondItem="3ml-9A-0q2" secondAttribute="leading" constant="20" id="pxE-jb-rFL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3ml-9A-0q2"/>
                     </view>
