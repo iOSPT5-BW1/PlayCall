@@ -7,15 +7,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GenericPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="X2c-LK-fyx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GenericPlayer1" translatesAutoresizingMaskIntoConstraints="NO" id="X2c-LK-fyx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7O-Wq-vS2" userLabel="ViewOverlay">
@@ -32,7 +32,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="9Et-FV-HRl" kind="presentation" identifier="ToLevelSelectionStoryboard" id="iqo-k7-6v5"/>
+                                            <segue destination="9Et-FV-HRl" kind="presentation" identifier="ToLevelSelectionStoryboard" modalPresentationStyle="fullScreen" id="iqo-k7-6v5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -87,6 +87,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="re1-ye-Yf2" id="uhZ-8K-jgW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,6 +105,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="GenericPlayer" width="570" height="450"/>
+        <image name="GenericPlayer1" width="570" height="450"/>
     </resources>
 </document>
