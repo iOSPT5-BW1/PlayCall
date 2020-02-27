@@ -12,16 +12,17 @@ class FormationCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var formationImageView: UIImageView!
     @IBOutlet weak var formationLabel: UILabel!
     
-    var formationList: FormationSelectionViewController? {
+    var formation: Formation? {
         didSet {
             updateView()
         }
     }
     
     func updateView() {
-        if let formations = formationList {
-            formationImageView.image = 
-        }
+        guard let formationName = formation?.formationName,
+            let formationImage = formation?.formationImage else {return}
+        formationImageView.image = formationImage
+        formationLabel.text = formationName
     }
     
 }
