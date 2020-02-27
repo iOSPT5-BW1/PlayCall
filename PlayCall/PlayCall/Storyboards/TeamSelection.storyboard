@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gft-l6-DvH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="trR-DA-XWn">
+            <objects>
+                <viewController storyboardIdentifier="TeamSelectionStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gft-l6-DvH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fmq-95-oxP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3mb-Dr-vDC">
+                                <rect key="frame" x="20" y="300" width="374" height="297.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT TEAM DO YOU PLAY FOR?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kku-xm-VjE">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="31.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXg-4t-d9y">
+                                        <rect key="frame" x="0.0" y="31" width="374" height="216"/>
+                                    </pickerView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4F-D0-wsA">
+                                        <rect key="frame" x="0.0" y="247.5" width="374" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IOG-Y3-nou"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="NEXT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="j9n-Sn-99P" kind="presentation" identifier="ToPositionSelectionStoryboard" id="6TM-5j-6cc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3mb-Dr-vDC" firstAttribute="top" secondItem="bKH-oj-yTv" secondAttribute="top" constant="256" id="7Cm-Wc-2Cg"/>
+                            <constraint firstItem="3mb-Dr-vDC" firstAttribute="leading" secondItem="bKH-oj-yTv" secondAttribute="leading" constant="20" id="AhK-5q-sMK"/>
+                            <constraint firstItem="bKH-oj-yTv" firstAttribute="trailing" secondItem="3mb-Dr-vDC" secondAttribute="trailing" constant="20" id="O8F-UH-0jr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bKH-oj-yTv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fi-yV-8wm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="113"/>
+        </scene>
+        <!--PositionSelectionStoryboard-->
+        <scene sceneID="tWQ-BU-UTs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="PositionSelectionStoryboard" storyboardName="PositionSelection" referencedIdentifier="PositionSelectionStoryboard" id="j9n-Sn-99P" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dal-JF-rPd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="537"/>
+        </scene>
+    </scenes>
+</document>
