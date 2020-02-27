@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sport Selection View Controller-->
         <scene sceneID="fQq-kO-UDA">
             <objects>
-                <viewController storyboardIdentifier="SportSelectionStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1KS-jW-95K" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SportSelectionStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1KS-jW-95K" customClass="SportSelectionViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J16-oM-yby">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="y8D-Zf-dZ9" kind="presentation" identifier="ToTeamSelectionStoryboard" id="uHb-TW-Wbh"/>
+                                            <segue destination="y8D-Zf-dZ9" kind="presentation" identifier="ToTeamSelectionStoryboard" modalPresentationStyle="fullScreen" id="uHb-TW-Wbh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -52,6 +52,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="by9-aC-n8J"/>
                     </view>
+                    <connections>
+                        <outlet property="sportSelectionNextButton" destination="9T3-uh-GSj" id="BE3-6a-soH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNv-QA-A4O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

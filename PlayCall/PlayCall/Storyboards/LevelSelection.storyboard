@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Level Selection View Controller-->
         <scene sceneID="F2u-iX-Ft7">
             <objects>
-                <viewController storyboardIdentifier="LevelSelectionStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dAL-XZ-Cb5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LevelSelectionStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dAL-XZ-Cb5" customClass="LevelSelectionViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SOb-rS-8rR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,6 +52,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3ml-9A-0q2"/>
                     </view>
+                    <connections>
+                        <outlet property="levelSelectionNextButton" destination="RkJ-gS-hvb" id="32t-6e-oZC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAN-Y0-JrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
