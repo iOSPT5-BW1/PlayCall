@@ -20,7 +20,7 @@ class FormationCollectionViewCell: UICollectionViewCell {
     
     func updateView() {
         if let formations = formationList {
-            formationImageView.image = 
+//            formationImageView.image = 
         }
     }
     
