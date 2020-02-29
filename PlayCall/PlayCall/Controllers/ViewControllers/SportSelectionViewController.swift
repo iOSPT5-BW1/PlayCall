@@ -16,7 +16,7 @@ class SportSelectionViewController: UIViewController {
     //changed to var from let to function
     var selectedLevel = LevelSelectionViewController.selectedLevel ?? "High School"
     
-    static var selectedSport: String?
+    static var selectedSport: String!
     
     @IBOutlet var sportPickerView: UIPickerView!
     @IBOutlet weak var sportSelectionNextButton: UIButton!
