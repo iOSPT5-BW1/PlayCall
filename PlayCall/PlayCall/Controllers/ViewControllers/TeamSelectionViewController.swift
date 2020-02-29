@@ -16,7 +16,8 @@ class TeamSelectionViewController: UIViewController {
     var selectedLevel = LevelSelectionViewController.selectedLevel ?? "High School"
     var selectedSport = SportSelectionViewController.selectedSport ?? "Baseball"
     
-    static var selectedTeam: String?
+    static var selectedTeam: String!
+    
     var teamType: [String] {
         if selectedLevel == "High School"{
             if selectedSport == "Football"{
@@ -97,7 +98,7 @@ extension TeamSelectionViewController: UIPickerViewDelegate, UIPickerViewDataSou
         return teamType[row]
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        SportSelectionViewController.selectedSport = teamType[row]
+        TeamSelectionViewController.selectedTeam = teamType[row]
     }
     
 }
