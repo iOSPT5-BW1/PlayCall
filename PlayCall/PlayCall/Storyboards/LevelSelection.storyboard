@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dAL-XZ-Cb5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FgA-qZ-kpa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UO7-Ni-rdt">
-                                <rect key="frame" x="20" y="285" width="374" height="348"/>
+                                <rect key="frame" x="20" y="329" width="374" height="348"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT LEVEL DO YOU PLAY AT?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCJ-U4-Yez">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="82"/>
@@ -52,13 +52,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3ml-9A-0q2"/>
                     </view>
+                    <navigationItem key="navigationItem" id="W3o-te-KBS"/>
                     <connections>
                         <outlet property="levelSelectionNextButton" destination="RkJ-gS-hvb" id="32t-6e-oZC"/>
+                        <outlet property="pickerView" destination="RDD-Kc-z8g" id="AOR-mY-GY8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAN-Y0-JrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="113"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
         </scene>
         <!--SportSelectionStoryboard-->
         <scene sceneID="HKY-fw-py7">
@@ -67,6 +69,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vb7-2y-ShA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="539"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hk7-aQ-xhi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FgA-qZ-kpa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wSR-vx-oUw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dAL-XZ-Cb5" kind="relationship" relationship="rootViewController" id="uHO-9E-9m1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="99l-KY-ZYH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
     </scenes>
 </document>
