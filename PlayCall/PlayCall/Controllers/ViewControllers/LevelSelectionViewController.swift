@@ -9,14 +9,50 @@
 import UIKit
 
 class LevelSelectionViewController: UIViewController {
-
     
+    private let levelController = LevelController()
+    
+    static var selectedLevel: String?
+    
+    //MARK: IBOutlets
     @IBOutlet weak var levelSelectionNextButton: UIButton!
+    @IBOutlet var pickerView: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        pickerView.dataSource = self
+        pickerView.delegate = self
         levelSelectionNextButton.layer.cornerRadius = 25
     }
+    
+//    @IBAction func nextTapped(_ sender: UIButton) {
+//        guard let selectedLevel = selectedLevel else { return }
+////        showSportSelectionVC(selectedLevel: selectedLevel)
+//    }
+    
+//    func showSportSelectionVC(selectedLevel: String) {
+//        guard let sportSelectionVC = storyboard?.instantiateViewController(identifier: "SportSelectionStoryboard", creator: { coder in
+//            return SportSelectionViewController(coder: coder, selectedLevel: selectedLevel)
+//        }) else { fatalError("Failed to load SportSelectionVC from storyboard.") }
+//        navigationController?.pushViewController(sportSelectionVC, animated: true)
+//    }
+    
+}
 
+
+
+extension LevelSelectionViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return levelController.levelList.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
+        return levelController.levelList[row]
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        LevelSelectionViewController.selectedLevel = levelController.levelList[row] 
+    }
+    
 }

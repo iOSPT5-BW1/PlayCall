@@ -53,6 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="bKH-oj-yTv"/>
                     </view>
                     <connections>
+                        <outlet property="teamPickerView" destination="mXg-4t-d9y" id="roH-4P-0pu"/>
                         <outlet property="teamSelectionNextButton" destination="h4F-D0-wsA" id="E4F-Pq-kXa"/>
                     </connections>
                 </viewController>

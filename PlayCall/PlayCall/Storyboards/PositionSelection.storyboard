@@ -53,6 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="g2G-2y-AyO"/>
                     </view>
                     <connections>
+                        <outlet property="positionPickerView" destination="JvD-x7-GBd" id="Ftj-Bh-YLj"/>
                         <outlet property="positionSelectionNextButton" destination="amA-cH-qv2" id="mf3-Gz-HqN"/>
                     </connections>
                 </viewController>
