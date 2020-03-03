@@ -53,6 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="by9-aC-n8J"/>
                     </view>
                     <connections>
+                        <outlet property="sportPickerView" destination="cZ9-Lo-UTL" id="VAu-ml-MRi"/>
                         <outlet property="sportSelectionNextButton" destination="9T3-uh-GSj" id="BE3-6a-soH"/>
                     </connections>
                 </viewController>

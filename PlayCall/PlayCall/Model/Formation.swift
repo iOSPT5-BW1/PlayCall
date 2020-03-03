@@ -8,6 +8,16 @@
 
 import UIKit
 
+//class Formation {
+//    var formationImage: UIImage
+//    var formationName: String
+//
+//    init(formationImage: UIImage, formationName: String) {
+//        self.formationImage = formationImage
+//        self.formationName = formationName
+//    }
+//}
+
 struct Formation {
     var formationImage: UIImage
     var formationName: String
