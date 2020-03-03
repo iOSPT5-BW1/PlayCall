@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xhl-Zv-fbT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="RTz-Gt-2IM">
+            <objects>
+                <viewController storyboardIdentifier="QuizStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xhl-Zv-fbT" customClass="QuizViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b2k-qa-lc7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="o3Z-bs-pVP">
+                                <rect key="frame" x="20" y="638" width="374" height="224"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isb-oW-dZM">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Ccg-IN-EUW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="Answer 1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="g0I-fc-Vf9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfp-3i-nWT">
+                                        <rect key="frame" x="0.0" y="58" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2z4-bY-yEc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="Answer 2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="clF-fx-qUA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBG-qA-qPy">
+                                        <rect key="frame" x="0.0" y="116" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="GJD-aJ-91q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="Answer 3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="aaj-xQ-2X5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnx-Qk-Iyy">
+                                        <rect key="frame" x="0.0" y="174" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VaJ-35-yxn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="Answer 4">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="eZO-i7-Ghg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIZ-0n-z2O">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2rl-Gq-Jf7"/>
+                                    <constraint firstAttribute="width" constant="200" id="stP-6I-xYb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Play Call">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="PBw-4M-yu2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o3Z-bs-pVP" firstAttribute="bottom" secondItem="3O6-hc-uQG" secondAttribute="bottom" id="TY4-8c-dQg"/>
+                            <constraint firstItem="o3Z-bs-pVP" firstAttribute="leading" secondItem="3O6-hc-uQG" secondAttribute="leading" constant="20" id="rHr-qj-a2r"/>
+                            <constraint firstItem="oIZ-0n-z2O" firstAttribute="centerX" secondItem="b2k-qa-lc7" secondAttribute="centerX" id="sCd-X4-aHR"/>
+                            <constraint firstItem="3O6-hc-uQG" firstAttribute="trailing" secondItem="o3Z-bs-pVP" secondAttribute="trailing" constant="20" id="sgf-ga-0WT"/>
+                            <constraint firstItem="oIZ-0n-z2O" firstAttribute="top" secondItem="b2k-qa-lc7" secondAttribute="top" constant="182" id="xvT-Oh-QpM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3O6-hc-uQG"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="bnx-Qk-Iyy" id="Jv4-lC-fm0"/>
+                        <outlet property="answerOneButton" destination="Isb-oW-dZM" id="BrQ-Xv-PU7"/>
+                        <outlet property="answerThreeButton" destination="pBG-qA-qPy" id="SfU-vS-RzF"/>
+                        <outlet property="answerTwoButton" destination="Nfp-3i-nWT" id="IMv-mF-fmR"/>
+                        <outlet property="playCallButton" destination="oIZ-0n-z2O" id="I3m-Lh-1Dn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vdb-4C-ILT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="89"/>
+        </scene>
+    </scenes>
+</document>
