@@ -71,6 +71,7 @@
                                         <connections>
                                             <outlet property="formationImageView" destination="h9N-lP-GWq" id="YNP-6g-9DO"/>
                                             <outlet property="formationLabel" destination="9A9-b6-Xqf" id="8Ex-cn-vWW"/>
+                                            <segue destination="Oli-81-hZY" kind="presentation" modalPresentationStyle="fullScreen" id="dC8-9e-czY"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -95,6 +96,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yhl-xr-t1C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </scene>
+        <!--QuizStoryboard-->
+        <scene sceneID="mQo-lf-P41">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="QuizStoryboard" storyboardName="Quiz" referencedIdentifier="QuizStoryboard" id="Oli-81-hZY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ah4-So-ufz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="534"/>
         </scene>
     </scenes>
 </document>
