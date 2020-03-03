@@ -8,10 +8,14 @@
 
 import UIKit
 
-var formationList: [Formation] = [
-    Formation(formationImage: UIImage(named: "iFormation")!, formationName: "I-Formation"),
-    Formation(formationImage: UIImage(named: "shotgun")!, formationName: "Shotgun"),
-    Formation(formationImage: UIImage(named: "singleBack")!, formationName: "Single Back"),
-    Formation(formationImage: UIImage(named: "proSet")!, formationName: "Pro Set"),
-    Formation(formationImage: UIImage(named: "empty")!, formationName: "Empty")
-]
+class FormationController {
+    var formationList: [Formation] = [
+        Formation(formationImage: UIImage(named: "iFormation")!, formationName: "I-Formation"),
+        Formation(formationImage: UIImage(named: "shotgun")!, formationName: "Shotgun"),
+        Formation(formationImage: UIImage(named: "singleBack")!, formationName: "Single Back"),
+        Formation(formationImage: UIImage(named: "proSet")!, formationName: "Pro Set"),
+        Formation(formationImage: UIImage(named: "empty")!, formationName: "Empty")
+    ]
+}
+
+
