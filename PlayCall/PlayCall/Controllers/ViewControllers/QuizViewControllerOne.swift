@@ -17,6 +17,7 @@ class QuizViewControllerOne: UIViewController {
     @IBOutlet weak var answerThreeButton: UIButton!
     @IBOutlet weak var answerFourButton: UIButton!
     
+    var audioFileController = AudioFileController()
     var soundController = SoundController()
     
     override func viewDidLoad() {
