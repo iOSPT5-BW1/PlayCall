@@ -68,7 +68,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="SportSelectionStoryboard" storyboardName="SportSelection" referencedIdentifier="SportSelectionStoryboard" id="EWY-oe-udf" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vb7-2y-ShA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="539"/>
+            <point key="canvasLocation" x="1049" y="575"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hk7-aQ-xhi">
