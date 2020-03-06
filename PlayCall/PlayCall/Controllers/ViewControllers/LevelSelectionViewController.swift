@@ -24,19 +24,6 @@ class LevelSelectionViewController: UIViewController {
         pickerView.delegate = self
         levelSelectionNextButton.layer.cornerRadius = 25
     }
-    
-//    @IBAction func nextTapped(_ sender: UIButton) {
-//        guard let selectedLevel = selectedLevel else { return }
-////        showSportSelectionVC(selectedLevel: selectedLevel)
-//    }
-    
-//    func showSportSelectionVC(selectedLevel: String) {
-//        guard let sportSelectionVC = storyboard?.instantiateViewController(identifier: "SportSelectionStoryboard", creator: { coder in
-//            return SportSelectionViewController(coder: coder, selectedLevel: selectedLevel)
-//        }) else { fatalError("Failed to load SportSelectionVC from storyboard.") }
-//        navigationController?.pushViewController(sportSelectionVC, animated: true)
-//    }
-    
 }
 
 
