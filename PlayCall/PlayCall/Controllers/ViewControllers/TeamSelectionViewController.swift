@@ -11,8 +11,6 @@ import UIKit
 class TeamSelectionViewController: UIViewController {
     
     let teamController = TeamController()
-    
-    //changed to var from let to function
     var selectedLevel = LevelSelectionViewController.selectedLevel ?? "High School"
     var selectedSport = SportSelectionViewController.selectedSport ?? "Baseball"
     

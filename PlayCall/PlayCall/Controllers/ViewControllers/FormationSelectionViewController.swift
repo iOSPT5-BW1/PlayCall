@@ -20,8 +20,6 @@ class FormationSelectionViewController: UIViewController {
         collectionView.delegate = self
         collectionView.reloadData()
     }
-
-    
 }
 
 extension FormationSelectionViewController: UICollectionViewDataSource, UICollectionViewDelegate {

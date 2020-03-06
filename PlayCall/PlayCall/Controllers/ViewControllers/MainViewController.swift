@@ -9,12 +9,12 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     @IBOutlet weak var getStartedButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         getStartedButton.layer.cornerRadius = 25
     }
     

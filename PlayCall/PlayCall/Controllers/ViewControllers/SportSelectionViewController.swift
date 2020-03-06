@@ -21,18 +21,6 @@ class SportSelectionViewController: UIViewController {
     @IBOutlet var sportPickerView: UIPickerView!
     @IBOutlet weak var sportSelectionNextButton: UIButton!
     
-    
-    
-    //    init?(coder: NSCoder, selectedLevel: String) {
-    //        self.selectedLevel = selectedLevel
-    //        super.init(coder: coder)
-    //    }
-    //
-    //    required init?(coder: NSCoder) {
-    //        fatalError("You need to create this view controller with selected level.")
-    //    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         sportPickerView.dataSource = self
