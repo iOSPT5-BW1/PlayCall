@@ -7,71 +7,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Quiz View Controller-->
+        <!--Quiz View Controller One-->
         <scene sceneID="RTz-Gt-2IM">
             <objects>
-                <viewController storyboardIdentifier="QuizStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xhl-Zv-fbT" customClass="QuizViewController" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QuizStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xhl-Zv-fbT" customClass="QuizViewControllerOne" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b2k-qa-lc7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="o3Z-bs-pVP">
-                                <rect key="frame" x="20" y="638" width="374" height="224"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isb-oW-dZM">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Ccg-IN-EUW"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
-                                        <state key="normal" title="Answer 1">
-                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="g0I-fc-Vf9"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfp-3i-nWT">
-                                        <rect key="frame" x="0.0" y="58" width="374" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="2z4-bY-yEc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
-                                        <state key="normal" title="Answer 2">
-                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="clF-fx-qUA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBG-qA-qPy">
-                                        <rect key="frame" x="0.0" y="116" width="374" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="GJD-aJ-91q"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
-                                        <state key="normal" title="Answer 3">
-                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="aaj-xQ-2X5"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnx-Qk-Iyy">
-                                        <rect key="frame" x="0.0" y="174" width="374" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="VaJ-35-yxn"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
-                                        <state key="normal" title="Answer 4">
-                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="eZO-i7-Ghg"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIZ-0n-z2O">
                                 <rect key="frame" x="107" y="182" width="200" height="200"/>
                                 <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,35 +23,1083 @@
                                     <constraint firstAttribute="width" constant="200" id="stP-6I-xYb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <state key="normal" title="Play Call">
+                                <state key="normal" title="PlayCall 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="playCallButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="PBw-4M-yu2"/>
+                                    <action selector="playCallButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="Wvj-E8-gdM"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MVD-h6-OiA">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTw-iF-0TQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleYSwitch-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="N5t-mF-Pj3"/>
+                                            <segue destination="iYf-X7-Te1" kind="presentation" identifier="GoToPlayCallTwo" modalPresentationStyle="fullScreen" id="5B9-r6-q1A"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gon-Ud-HT5">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="9yD-xL-dUa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-Combo-S23-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="x8e-8X-38M"/>
+                                            <segue destination="iYf-X7-Te1" kind="presentation" identifier="GoToPlayCallTwo" modalPresentationStyle="fullScreen" id="Q1B-t6-JoH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFu-KM-61r">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2oK-Qy-hNc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-AllStreaksGo-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="Xjr-lZ-IpE"/>
+                                            <segue destination="iYf-X7-Te1" kind="presentation" identifier="GoToPlayCallTwo" modalPresentationStyle="fullScreen" id="GNB-kq-wgp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iou-ZU-t2K">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="tBA-al-nFg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-HitchZOpen-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="Xhl-Zv-fbT" eventType="touchUpInside" id="nqg-2z-QyP"/>
+                                            <segue destination="iYf-X7-Te1" kind="presentation" identifier="GoToPlayCallTwo" modalPresentationStyle="fullScreen" id="3ru-Uu-u0L"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Jxp-Wh-bwk">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="o3Z-bs-pVP" firstAttribute="bottom" secondItem="3O6-hc-uQG" secondAttribute="bottom" id="TY4-8c-dQg"/>
-                            <constraint firstItem="o3Z-bs-pVP" firstAttribute="leading" secondItem="3O6-hc-uQG" secondAttribute="leading" constant="20" id="rHr-qj-a2r"/>
+                            <constraint firstItem="3O6-hc-uQG" firstAttribute="trailing" secondItem="MVD-h6-OiA" secondAttribute="trailing" constant="20" id="Rhz-EF-26r"/>
+                            <constraint firstItem="MVD-h6-OiA" firstAttribute="bottom" secondItem="3O6-hc-uQG" secondAttribute="bottom" id="TMQ-05-SnM"/>
+                            <constraint firstItem="MVD-h6-OiA" firstAttribute="leading" secondItem="3O6-hc-uQG" secondAttribute="leading" constant="20" id="mDu-Sq-14v"/>
                             <constraint firstItem="oIZ-0n-z2O" firstAttribute="centerX" secondItem="b2k-qa-lc7" secondAttribute="centerX" id="sCd-X4-aHR"/>
-                            <constraint firstItem="3O6-hc-uQG" firstAttribute="trailing" secondItem="o3Z-bs-pVP" secondAttribute="trailing" constant="20" id="sgf-ga-0WT"/>
                             <constraint firstItem="oIZ-0n-z2O" firstAttribute="top" secondItem="b2k-qa-lc7" secondAttribute="top" constant="182" id="xvT-Oh-QpM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3O6-hc-uQG"/>
                     </view>
                     <connections>
-                        <outlet property="answerFourButton" destination="bnx-Qk-Iyy" id="Jv4-lC-fm0"/>
-                        <outlet property="answerOneButton" destination="Isb-oW-dZM" id="BrQ-Xv-PU7"/>
-                        <outlet property="answerThreeButton" destination="pBG-qA-qPy" id="SfU-vS-RzF"/>
-                        <outlet property="answerTwoButton" destination="Nfp-3i-nWT" id="IMv-mF-fmR"/>
-                        <outlet property="playCallButton" destination="oIZ-0n-z2O" id="I3m-Lh-1Dn"/>
+                        <outlet property="answerFourButton" destination="Iou-ZU-t2K" id="rTZ-7q-vM4"/>
+                        <outlet property="answerOneButton" destination="YTw-iF-0TQ" id="ple-4C-qIr"/>
+                        <outlet property="answerThreeButton" destination="JFu-KM-61r" id="6lK-uv-8ul"/>
+                        <outlet property="answerTwoButton" destination="gon-Ud-HT5" id="Nhk-Tm-jXD"/>
+                        <outlet property="playCallButton" destination="oIZ-0n-z2O" id="Zla-Xs-prw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vdb-4C-ILT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="89"/>
+            <point key="canvasLocation" x="119" y="-447"/>
+        </scene>
+        <!--Quiz View Controller Two-->
+        <scene sceneID="yN4-hN-bdH">
+            <objects>
+                <viewController id="iYf-X7-Te1" customClass="QuizViewControllerTwo" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DSR-BX-LSb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hZ-ME-kP0">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="c5W-y4-vQ0"/>
+                                    <constraint firstAttribute="height" constant="200" id="wwb-PL-ZcS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="iYf-X7-Te1" eventType="touchUpInside" id="3Ec-zl-uxx"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="v5Q-gd-uxL">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nl3-Dg-KJl">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleScreen14-Snap4">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="iYf-X7-Te1" eventType="touchUpInside" id="26i-RB-Y0q"/>
+                                            <segue destination="a6u-nM-xlq" kind="presentation" identifier="GoToPlayCallThree" modalPresentationStyle="fullScreen" id="xuT-5a-83J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdI-qN-dcf">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="8Zz-LD-w7t"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-ChristineSpecialY-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="iYf-X7-Te1" eventType="touchUpInside" id="PWe-gF-rrz"/>
+                                            <segue destination="a6u-nM-xlq" kind="presentation" identifier="GoToPlayCallThree" modalPresentationStyle="fullScreen" id="7x2-xz-4Q0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="264-47-b4T">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Qgz-Sf-ZP4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="iYf-X7-Te1" eventType="touchUpInside" id="BT2-43-Oa5"/>
+                                            <segue destination="a6u-nM-xlq" kind="presentation" identifier="GoToPlayCallThree" modalPresentationStyle="fullScreen" id="7FJ-lG-8ff"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pE-0F-Z1i">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dHa-tb-BBj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-MotionZSweep-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="iYf-X7-Te1" eventType="touchUpInside" id="coZ-vU-5Mv"/>
+                                            <segue destination="a6u-nM-xlq" kind="presentation" identifier="GoToPlayCallThree" modalPresentationStyle="fullScreen" id="ekI-eQ-jD2"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-OQ-CxV">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jub-RH-tWw" firstAttribute="trailing" secondItem="v5Q-gd-uxL" secondAttribute="trailing" constant="20" id="3ye-yr-hmF"/>
+                            <constraint firstItem="8hZ-ME-kP0" firstAttribute="top" secondItem="DSR-BX-LSb" secondAttribute="top" constant="182" id="51u-LD-rR2"/>
+                            <constraint firstItem="8hZ-ME-kP0" firstAttribute="centerX" secondItem="DSR-BX-LSb" secondAttribute="centerX" id="ipU-Lf-RcG"/>
+                            <constraint firstItem="v5Q-gd-uxL" firstAttribute="leading" secondItem="Jub-RH-tWw" secondAttribute="leading" constant="20" id="lsk-YN-GXe"/>
+                            <constraint firstItem="v5Q-gd-uxL" firstAttribute="bottom" secondItem="Jub-RH-tWw" secondAttribute="bottom" id="nH9-wJ-Z6c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jub-RH-tWw"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="8pE-0F-Z1i" id="lZN-jT-q2A"/>
+                        <outlet property="answerOneButton" destination="nl3-Dg-KJl" id="PVJ-kU-vCb"/>
+                        <outlet property="answerThreeButton" destination="264-47-b4T" id="ulZ-HG-SnX"/>
+                        <outlet property="answerTwoButton" destination="zdI-qN-dcf" id="FxA-Uk-RpQ"/>
+                        <outlet property="playCallButton" destination="8hZ-ME-kP0" id="NeF-dN-2zD"/>
+                        <outlet property="progressBar" destination="BDi-OQ-CxV" id="sQQ-hw-vW3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXP-rV-ZGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="263"/>
+        </scene>
+        <!--Quiz View Controller Three-->
+        <scene sceneID="3LI-8R-Wae">
+            <objects>
+                <viewController id="a6u-nM-xlq" customClass="QuizViewControllerThree" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fhr-O9-fUB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sh-rD-ERZ">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ufO-Tp-3GV"/>
+                                    <constraint firstAttribute="width" constant="200" id="x7D-k9-u2t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="a6u-nM-xlq" eventType="touchUpInside" id="cyP-4o-eSc"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="suR-46-fgU">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Zg-1B-F82">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="a6u-nM-xlq" eventType="touchUpInside" id="Ci0-T8-Dc4"/>
+                                            <segue destination="gVW-IH-Z62" kind="presentation" identifier="GotToPlayCallFour" modalPresentationStyle="fullScreen" id="pJX-zT-czR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QS-G1-gHQ">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="usN-4r-JU2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-ChristineSpecialY-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="a6u-nM-xlq" eventType="touchUpInside" id="giz-QY-sJq"/>
+                                            <segue destination="gVW-IH-Z62" kind="presentation" identifier="GotToPlayCallFour" modalPresentationStyle="fullScreen" id="zIR-pj-adj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-1A-9fg">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="fCF-SQ-P01"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-MotionZSweep-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="a6u-nM-xlq" eventType="touchUpInside" id="WBL-r0-coI"/>
+                                            <segue destination="gVW-IH-Z62" kind="presentation" identifier="GotToPlayCallFour" modalPresentationStyle="fullScreen" id="y6r-m9-eWL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIf-SC-fqM">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Ims-gk-Bu2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-SlantRightX-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="a6u-nM-xlq" eventType="touchUpInside" id="4IM-PK-k5o"/>
+                                            <segue destination="gVW-IH-Z62" kind="presentation" identifier="GotToPlayCallFour" modalPresentationStyle="fullScreen" id="QRZ-Cu-UHC"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="aCx-Av-UJY">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9sh-rD-ERZ" firstAttribute="top" secondItem="fhr-O9-fUB" secondAttribute="top" constant="182" id="4SD-4b-cub"/>
+                            <constraint firstItem="suR-46-fgU" firstAttribute="leading" secondItem="YYk-eZ-qL1" secondAttribute="leading" constant="20" id="KrL-Uv-813"/>
+                            <constraint firstItem="9sh-rD-ERZ" firstAttribute="centerX" secondItem="fhr-O9-fUB" secondAttribute="centerX" id="Zvv-u6-Rtk"/>
+                            <constraint firstItem="YYk-eZ-qL1" firstAttribute="trailing" secondItem="suR-46-fgU" secondAttribute="trailing" constant="20" id="xOn-y1-3rl"/>
+                            <constraint firstItem="suR-46-fgU" firstAttribute="bottom" secondItem="YYk-eZ-qL1" secondAttribute="bottom" id="xhw-Ez-Um1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YYk-eZ-qL1"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="gIf-SC-fqM" id="VgJ-Lv-62c"/>
+                        <outlet property="answerOneButton" destination="9Zg-1B-F82" id="Uzp-zL-XGY"/>
+                        <outlet property="answerThreeButton" destination="gLd-1A-9fg" id="VsT-7W-FiQ"/>
+                        <outlet property="answerTwoButton" destination="1QS-G1-gHQ" id="mh8-Kw-Tin"/>
+                        <outlet property="playCallButton" destination="9sh-rD-ERZ" id="DxR-DL-9PG"/>
+                        <outlet property="progressBar" destination="aCx-Av-UJY" id="gfY-nz-Qdv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5J-tY-6qP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="968"/>
+        </scene>
+        <!--Quiz View Controller Four-->
+        <scene sceneID="7ST-zw-wNG">
+            <objects>
+                <viewController id="gVW-IH-Z62" customClass="QuizViewControllerFour" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sLq-Rs-veJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eds-Fd-IV6">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7iB-IX-52j"/>
+                                    <constraint firstAttribute="height" constant="200" id="Cyf-jU-zYE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="gVW-IH-Z62" eventType="touchUpInside" id="oRj-pQ-7dS"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-0J-FHO">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm1-Sq-BZV">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-Combo-S23-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="gVW-IH-Z62" eventType="touchUpInside" id="iFX-Jz-ceo"/>
+                                            <segue destination="nrb-yj-341" kind="presentation" identifier="GoToPlayCallFive" modalPresentationStyle="fullScreen" id="gqA-am-kvj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6au-hf-qG0">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="DHi-V1-hLF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-HitchZOpen-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="gVW-IH-Z62" eventType="touchUpInside" id="1NK-Qp-V2i"/>
+                                            <segue destination="nrb-yj-341" kind="presentation" modalPresentationStyle="fullScreen" id="LO9-b1-weI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQa-Or-SlW">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cdc-I3-PFZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-QBSneak-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="gVW-IH-Z62" eventType="touchUpInside" id="ccA-q7-9sd"/>
+                                            <segue destination="nrb-yj-341" kind="presentation" identifier="GoToPlayCall5" modalPresentationStyle="fullScreen" id="eUq-wE-2F5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oo-ad-8CN">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="buf-Pm-P1z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleYSwitch-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="gVW-IH-Z62" eventType="touchUpInside" id="D8S-PP-KVz"/>
+                                            <segue destination="nrb-yj-341" kind="presentation" identifier="GoToPlayCall5" modalPresentationStyle="fullScreen" id="SMi-DA-5HK"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="VQ0-Ue-wIR">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eds-Fd-IV6" firstAttribute="centerX" secondItem="sLq-Rs-veJ" secondAttribute="centerX" id="5rM-Ie-iRp"/>
+                            <constraint firstItem="lg3-0J-FHO" firstAttribute="leading" secondItem="R1q-1b-1KI" secondAttribute="leading" constant="20" id="80L-7C-dn7"/>
+                            <constraint firstItem="lg3-0J-FHO" firstAttribute="bottom" secondItem="R1q-1b-1KI" secondAttribute="bottom" id="Lgs-EY-8BF"/>
+                            <constraint firstItem="eds-Fd-IV6" firstAttribute="top" secondItem="sLq-Rs-veJ" secondAttribute="top" constant="182" id="UAc-0S-bgX"/>
+                            <constraint firstItem="R1q-1b-1KI" firstAttribute="trailing" secondItem="lg3-0J-FHO" secondAttribute="trailing" constant="20" id="wy3-hY-fS2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R1q-1b-1KI"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="3oo-ad-8CN" id="bD4-Rc-jt0"/>
+                        <outlet property="answerOneButton" destination="gm1-Sq-BZV" id="TKh-xj-Bg2"/>
+                        <outlet property="answerThreeButton" destination="aQa-Or-SlW" id="pf8-jd-c02"/>
+                        <outlet property="answerTwoButton" destination="6au-hf-qG0" id="2Ix-CI-ero"/>
+                        <outlet property="playCallButton" destination="eds-Fd-IV6" id="DOR-Oa-OBd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vr7-sC-hSz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="1675"/>
+        </scene>
+        <!--Quiz View Controller Five-->
+        <scene sceneID="4gd-7H-cbR">
+            <objects>
+                <viewController id="nrb-yj-341" customClass="QuizViewControllerFive" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bht-Ya-9lf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdM-qL-wwf">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8CU-Ch-R8k"/>
+                                    <constraint firstAttribute="height" constant="200" id="J3E-3Z-uxR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="nrb-yj-341" eventType="touchUpInside" id="sBp-cQ-sIo"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8lG-Ye-vHz">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5h-ap-FR0">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-Combo-S23-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="nrb-yj-341" eventType="touchUpInside" id="cVJ-0L-ABt"/>
+                                            <segue destination="khu-Cn-tbb" kind="presentation" identifier="GoToPlayCallSix" modalPresentationStyle="fullScreen" id="irr-OM-9qK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xM4-Vc-qFv">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Lpx-dL-BSe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="nrb-yj-341" eventType="touchUpInside" id="WCV-s2-ck5"/>
+                                            <segue destination="khu-Cn-tbb" kind="presentation" identifier="GoToPlayCallSix" modalPresentationStyle="fullScreen" id="FN8-vI-H93"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-98-squ">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Ozr-wJ-cqW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleScreen14-Snap4">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="nrb-yj-341" eventType="touchUpInside" id="VjO-Q3-c9v"/>
+                                            <segue destination="khu-Cn-tbb" kind="presentation" identifier="GoToPlayCallSix" modalPresentationStyle="fullScreen" id="Sha-7z-nSh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mc-wx-o09">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3pp-cb-t3P"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-SlantRightX-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="nrb-yj-341" eventType="touchUpInside" id="tKF-In-hKw"/>
+                                            <segue destination="khu-Cn-tbb" kind="presentation" identifier="GoToPlayCallSix" modalPresentationStyle="fullScreen" id="Upp-uW-zRU"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="dSa-zJ-eg0">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VdM-qL-wwf" firstAttribute="centerX" secondItem="bht-Ya-9lf" secondAttribute="centerX" id="Geg-2v-wav"/>
+                            <constraint firstItem="m24-GN-OzM" firstAttribute="trailing" secondItem="8lG-Ye-vHz" secondAttribute="trailing" constant="20" id="TPu-v3-ARa"/>
+                            <constraint firstItem="8lG-Ye-vHz" firstAttribute="leading" secondItem="m24-GN-OzM" secondAttribute="leading" constant="20" id="gqh-yO-0it"/>
+                            <constraint firstItem="VdM-qL-wwf" firstAttribute="top" secondItem="bht-Ya-9lf" secondAttribute="top" constant="182" id="roh-v7-tHD"/>
+                            <constraint firstItem="8lG-Ye-vHz" firstAttribute="bottom" secondItem="m24-GN-OzM" secondAttribute="bottom" id="yrx-dp-P7f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m24-GN-OzM"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="4Mc-wx-o09" id="ybu-hW-CkT"/>
+                        <outlet property="answerOneButton" destination="H5h-ap-FR0" id="wzc-4q-iL3"/>
+                        <outlet property="answerThreeButton" destination="UOc-98-squ" id="9GZ-kn-a3N"/>
+                        <outlet property="answerTwoButton" destination="xM4-Vc-qFv" id="gcg-qd-Ky3"/>
+                        <outlet property="playCallButton" destination="VdM-qL-wwf" id="xo6-F1-c24"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNL-U3-chf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="2371"/>
+        </scene>
+        <!--Quiz View Controller Six-->
+        <scene sceneID="k4O-Q5-iFC">
+            <objects>
+                <viewController id="khu-Cn-tbb" customClass="QuizViewControllerSix" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mwh-8S-yD0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuW-Xn-ZLk">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="P09-pF-wGm"/>
+                                    <constraint firstAttribute="width" constant="200" id="oi9-cl-LHM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="khu-Cn-tbb" eventType="touchUpInside" id="sOs-u4-kdy"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tWH-73-hi8">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="su3-Cu-OFb">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleYSwitch-SnapCount3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="khu-Cn-tbb" eventType="touchUpInside" id="Tzn-Cc-orP"/>
+                                            <segue destination="VWf-pw-1Bn" kind="presentation" identifier="GoToPlayCallSeven" modalPresentationStyle="fullScreen" id="Oxj-b5-13X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDY-0f-skQ">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="qUa-Ef-FSG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="khu-Cn-tbb" eventType="touchUpInside" id="4jw-Qb-nG0"/>
+                                            <segue destination="VWf-pw-1Bn" kind="presentation" identifier="GoToPlayCallSeven" modalPresentationStyle="fullScreen" id="lpS-TJ-2L8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45K-nB-PyK">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="pwt-Qy-9LI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-MotionZSweep-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="khu-Cn-tbb" eventType="touchUpInside" id="O00-cB-Yhe"/>
+                                            <segue destination="VWf-pw-1Bn" kind="presentation" identifier="GoToPlayCallSeven" modalPresentationStyle="fullScreen" id="nbg-uR-Ny8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmB-4d-YOi">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="RCz-wU-Alb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-AllStreaksGo-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="khu-Cn-tbb" eventType="touchUpInside" id="8iu-Y1-Q48"/>
+                                            <segue destination="VWf-pw-1Bn" kind="presentation" identifier="GoToPlayCallSeven" modalPresentationStyle="fullScreen" id="zJF-Vg-BeA"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="iXY-9f-Ddp">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LuW-Xn-ZLk" firstAttribute="centerX" secondItem="mwh-8S-yD0" secondAttribute="centerX" id="AuJ-Qa-dpj"/>
+                            <constraint firstItem="LuW-Xn-ZLk" firstAttribute="top" secondItem="mwh-8S-yD0" secondAttribute="top" constant="182" id="Onp-wb-ugb"/>
+                            <constraint firstItem="tWH-73-hi8" firstAttribute="leading" secondItem="v1b-r5-1u4" secondAttribute="leading" constant="20" id="Xd5-Is-v6I"/>
+                            <constraint firstItem="v1b-r5-1u4" firstAttribute="trailing" secondItem="tWH-73-hi8" secondAttribute="trailing" constant="20" id="eft-th-xfJ"/>
+                            <constraint firstItem="tWH-73-hi8" firstAttribute="bottom" secondItem="v1b-r5-1u4" secondAttribute="bottom" id="sGj-a5-hJw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v1b-r5-1u4"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="WmB-4d-YOi" id="MI3-W4-RET"/>
+                        <outlet property="answerOneButton" destination="su3-Cu-OFb" id="kRs-t8-Gu5"/>
+                        <outlet property="answerThreeButton" destination="45K-nB-PyK" id="Fwx-QC-Na6"/>
+                        <outlet property="answerTwoButton" destination="dDY-0f-skQ" id="pxx-AO-Z7b"/>
+                        <outlet property="playCallButton" destination="LuW-Xn-ZLk" id="g1L-KD-i0J"/>
+                        <outlet property="progressBar" destination="iXY-9f-Ddp" id="eEp-to-ZwF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLO-C8-fcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="3082"/>
+        </scene>
+        <!--Quiz View Controller Seven-->
+        <scene sceneID="KZW-Ko-Cm5">
+            <objects>
+                <viewController id="VWf-pw-1Bn" customClass="QuizViewControllerSeven" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wIE-ti-aA5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7e-Df-z7r">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2OL-zI-D1u"/>
+                                    <constraint firstAttribute="width" constant="200" id="2RG-Jr-hWT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="VWf-pw-1Bn" eventType="touchUpInside" id="2jw-AV-WPO"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EvY-bf-qGP">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAd-WB-bdH">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-HitchZOpen-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="VWf-pw-1Bn" eventType="touchUpInside" id="brM-Zs-dHn"/>
+                                            <segue destination="puS-Z8-bAm" kind="presentation" identifier="GoToPlayCallEight" modalPresentationStyle="fullScreen" id="LAs-0N-U0p"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jL8-13-yqO">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="t6m-nT-kb4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-SlantRightX-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="VWf-pw-1Bn" eventType="touchUpInside" id="xsO-o3-ddc"/>
+                                            <segue destination="puS-Z8-bAm" kind="presentation" identifier="GoToPlayCallEight" modalPresentationStyle="fullScreen" id="0fQ-E2-1hg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bt2-Nb-wUe">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1ml-2W-SK3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleYSwitch-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="VWf-pw-1Bn" eventType="touchUpInside" id="P1y-Ix-ieB"/>
+                                            <segue destination="puS-Z8-bAm" kind="presentation" identifier="GoToPlayCallEight" modalPresentationStyle="fullScreen" id="SmR-UD-Fzu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqF-Ip-WDh">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="HVx-vd-gNB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="VWf-pw-1Bn" eventType="touchUpInside" id="Iin-Fy-gag"/>
+                                            <segue destination="puS-Z8-bAm" kind="presentation" identifier="GoToPlayCallEight" modalPresentationStyle="fullScreen" id="SZW-77-jLY"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="iAh-rN-MsA">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EvY-bf-qGP" firstAttribute="bottom" secondItem="Odq-nN-307" secondAttribute="bottom" id="N62-n0-efo"/>
+                            <constraint firstItem="Odq-nN-307" firstAttribute="trailing" secondItem="EvY-bf-qGP" secondAttribute="trailing" constant="20" id="TNj-5c-KIf"/>
+                            <constraint firstItem="i7e-Df-z7r" firstAttribute="centerX" secondItem="wIE-ti-aA5" secondAttribute="centerX" id="s5x-VA-js0"/>
+                            <constraint firstItem="EvY-bf-qGP" firstAttribute="leading" secondItem="Odq-nN-307" secondAttribute="leading" constant="20" id="snZ-ak-QPx"/>
+                            <constraint firstItem="i7e-Df-z7r" firstAttribute="top" secondItem="wIE-ti-aA5" secondAttribute="top" constant="182" id="vHZ-j8-nTq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Odq-nN-307"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="oqF-Ip-WDh" id="xIu-rD-PVh"/>
+                        <outlet property="answerOneButton" destination="iAd-WB-bdH" id="NiD-65-0d4"/>
+                        <outlet property="answerThreeButton" destination="Bt2-Nb-wUe" id="9mS-rN-aqQ"/>
+                        <outlet property="answerTwoButton" destination="jL8-13-yqO" id="GFT-RB-qSL"/>
+                        <outlet property="playCallButton" destination="i7e-Df-z7r" id="XL8-cA-pAe"/>
+                        <outlet property="progressBar" destination="iAh-rN-MsA" id="cMD-vx-Y5x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wU-O1-dIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="3806"/>
+        </scene>
+        <!--Quiz View Controller Eight-->
+        <scene sceneID="1iB-li-YVR">
+            <objects>
+                <viewController id="puS-Z8-bAm" customClass="QuizViewControllerEight" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oKa-Nx-eQG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uu4-SU-SSu">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LKk-mw-yQY"/>
+                                    <constraint firstAttribute="width" constant="200" id="cg1-un-JAj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 8">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="puS-Z8-bAm" eventType="touchUpInside" id="Pen-bs-rYP"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bA3-aB-pEh">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBJ-tP-iF5">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-ChristineSpecialY-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="puS-Z8-bAm" eventType="touchUpInside" id="XHq-T1-aNc"/>
+                                            <segue destination="kLz-38-xz4" kind="presentation" identifier="GoToPlayCallNine" modalPresentationStyle="fullScreen" id="Cb9-Bh-hsg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYp-Gk-h88">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1Ek-XU-Lxx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-HitchZOpen-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="puS-Z8-bAm" eventType="touchUpInside" id="6Ir-cV-Nw5"/>
+                                            <segue destination="kLz-38-xz4" kind="presentation" identifier="GoToPlayCallNine" modalPresentationStyle="fullScreen" id="xav-ba-EXu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwr-sF-hQs">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="MAn-ZU-5TA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-MotionZSweep-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="puS-Z8-bAm" eventType="touchUpInside" id="6ay-36-Pau"/>
+                                            <segue destination="kLz-38-xz4" kind="presentation" identifier="GoToPlayCallNine" modalPresentationStyle="fullScreen" id="ZYY-SJ-twJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLS-19-HKy">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gBc-HQ-cZb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-AllStreaksGo-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="puS-Z8-bAm" eventType="touchUpInside" id="xIB-h9-mpg"/>
+                                            <segue destination="kLz-38-xz4" kind="presentation" identifier="GoToPlayCallNine" modalPresentationStyle="fullScreen" id="1ju-Iu-vsJ"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="QQN-99-6na">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Mez-ml-lWD" firstAttribute="trailing" secondItem="bA3-aB-pEh" secondAttribute="trailing" constant="20" id="4Gc-w7-s2g"/>
+                            <constraint firstItem="uu4-SU-SSu" firstAttribute="centerX" secondItem="oKa-Nx-eQG" secondAttribute="centerX" id="4Rf-I4-QnU"/>
+                            <constraint firstItem="uu4-SU-SSu" firstAttribute="top" secondItem="oKa-Nx-eQG" secondAttribute="top" constant="182" id="5M5-Oc-9Pu"/>
+                            <constraint firstItem="bA3-aB-pEh" firstAttribute="leading" secondItem="Mez-ml-lWD" secondAttribute="leading" constant="20" id="Xr3-rX-9Vf"/>
+                            <constraint firstItem="bA3-aB-pEh" firstAttribute="bottom" secondItem="Mez-ml-lWD" secondAttribute="bottom" id="hvF-Ho-An4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mez-ml-lWD"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="dLS-19-HKy" id="9EV-fx-DpK"/>
+                        <outlet property="answerOneButton" destination="jBJ-tP-iF5" id="LrN-Zf-mms"/>
+                        <outlet property="answerThreeButton" destination="lwr-sF-hQs" id="khY-5d-qMc"/>
+                        <outlet property="answerTwoButton" destination="jYp-Gk-h88" id="msP-d4-kj4"/>
+                        <outlet property="playCallButton" destination="uu4-SU-SSu" id="BkH-0K-YuX"/>
+                        <outlet property="progressBar" destination="QQN-99-6na" id="FNS-uT-ekD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oin-Ab-sdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="4524"/>
+        </scene>
+        <!--Quiz View Controller Nine-->
+        <scene sceneID="sfJ-ZW-JaO">
+            <objects>
+                <viewController id="kLz-38-xz4" customClass="QuizViewControllerNine" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yTC-s8-CTd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXM-Dd-VkK">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4Cc-jq-x7t"/>
+                                    <constraint firstAttribute="width" constant="200" id="yqm-eK-ovo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 9">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="kLz-38-xz4" eventType="touchUpInside" id="pqm-gF-kV3"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bdO-nf-bGk">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpS-OL-9EJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-Combo-S23-Snap3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="kLz-38-xz4" eventType="touchUpInside" id="fuz-iL-nCP"/>
+                                            <segue destination="CY2-MD-Mla" kind="presentation" identifier="GoToPlayCallTen" modalPresentationStyle="fullScreen" id="q9C-VR-CC8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r10-zd-DkV">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="DcS-xD-q80"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-MotionZSweep-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="kLz-38-xz4" eventType="touchUpInside" id="1Oa-p9-r1x"/>
+                                            <segue destination="CY2-MD-Mla" kind="presentation" identifier="GoToPlayCallTen" modalPresentationStyle="fullScreen" id="Io9-Xu-Zlh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kX1-Vk-D2n">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="thd-36-a0M"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleScreen14-Snap4">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="kLz-38-xz4" eventType="touchUpInside" id="DCW-DZ-UuM"/>
+                                            <segue destination="CY2-MD-Mla" kind="presentation" identifier="GoToPlayCallTen" modalPresentationStyle="fullScreen" id="Uta-9k-6JN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNa-yg-h9L">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="lMi-0M-cVE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-QBSneak-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="kLz-38-xz4" eventType="touchUpInside" id="QRa-xT-4NW"/>
+                                            <segue destination="CY2-MD-Mla" kind="presentation" identifier="GoToPlayCallTen" modalPresentationStyle="fullScreen" id="C7b-6T-WuX"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="8cy-9s-iVK">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="teR-hI-hF6" firstAttribute="trailing" secondItem="bdO-nf-bGk" secondAttribute="trailing" constant="20" id="4yU-rb-aSD"/>
+                            <constraint firstItem="IXM-Dd-VkK" firstAttribute="centerX" secondItem="yTC-s8-CTd" secondAttribute="centerX" id="B9t-l4-kQF"/>
+                            <constraint firstItem="bdO-nf-bGk" firstAttribute="bottom" secondItem="teR-hI-hF6" secondAttribute="bottom" id="W45-oC-nGG"/>
+                            <constraint firstItem="IXM-Dd-VkK" firstAttribute="top" secondItem="yTC-s8-CTd" secondAttribute="top" constant="182" id="n4Y-LY-yH7"/>
+                            <constraint firstItem="bdO-nf-bGk" firstAttribute="leading" secondItem="teR-hI-hF6" secondAttribute="leading" constant="20" id="yZZ-dy-bT8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="teR-hI-hF6"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="yNa-yg-h9L" id="j6h-BA-9pK"/>
+                        <outlet property="answerOneButton" destination="MpS-OL-9EJ" id="PQR-f3-vuB"/>
+                        <outlet property="answerThreeButton" destination="kX1-Vk-D2n" id="DVs-Ft-Oqj"/>
+                        <outlet property="answerTwoButton" destination="r10-zd-DkV" id="NLT-ut-umO"/>
+                        <outlet property="playCallButton" destination="IXM-Dd-VkK" id="Q5l-Ds-ZYa"/>
+                        <outlet property="progressBar" destination="8cy-9s-iVK" id="uI8-fo-FnH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSC-LQ-BRV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="5249"/>
+        </scene>
+        <!--Quiz View Controller Ten-->
+        <scene sceneID="bYl-Te-OnZ">
+            <objects>
+                <viewController id="CY2-MD-Mla" customClass="QuizViewControllerTen" customModule="PlayCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="36c-fF-Q5f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbH-1O-38f">
+                                <rect key="frame" x="107" y="182" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="X8E-Lj-NAs"/>
+                                    <constraint firstAttribute="height" constant="200" id="g5S-Wu-vfe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="PlayCall 10">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playCallButtonPressed:" destination="CY2-MD-Mla" eventType="touchUpInside" id="Qet-HM-TxU"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jbv-li-q9W">
+                                <rect key="frame" x="20" y="634" width="374" height="228"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXd-l2-qlf">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-BubbleYSwitch-SnapCount3">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="CY2-MD-Mla" eventType="touchUpInside" id="0yf-iD-9LZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M91-Nh-0iY">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="OoO-gE-lIu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-SlantRightX-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="CY2-MD-Mla" eventType="touchUpInside" id="aSK-8P-8gX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSM-Xd-DV9">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="eyG-QK-u9b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-DoublePassFlyGo-Snap2">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="CY2-MD-Mla" eventType="touchUpInside" id="tdj-44-VsK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nv-CV-1bH">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="PQm-Gg-ZXA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                        <state key="normal" title="E12-QBSneak-Snap1">
+                                            <color key="titleColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="CY2-MD-Mla" eventType="touchUpInside" id="GX8-oL-obD"/>
+                                        </connections>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="TwK-Ii-Wqv">
+                                        <rect key="frame" x="0.0" y="226" width="374" height="2"/>
+                                        <color key="progressTintColor" red="1" green="0.54901960780000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jbv-li-q9W" firstAttribute="leading" secondItem="R5c-on-mKM" secondAttribute="leading" constant="20" id="7Zx-Yv-tBM"/>
+                            <constraint firstItem="jbv-li-q9W" firstAttribute="bottom" secondItem="R5c-on-mKM" secondAttribute="bottom" id="HQT-df-u1f"/>
+                            <constraint firstItem="WbH-1O-38f" firstAttribute="centerX" secondItem="36c-fF-Q5f" secondAttribute="centerX" id="MQt-7S-0G0"/>
+                            <constraint firstItem="WbH-1O-38f" firstAttribute="top" secondItem="36c-fF-Q5f" secondAttribute="top" constant="182" id="VYY-l0-D7Q"/>
+                            <constraint firstItem="R5c-on-mKM" firstAttribute="trailing" secondItem="jbv-li-q9W" secondAttribute="trailing" constant="20" id="sIf-Ti-Z8R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R5c-on-mKM"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerFourButton" destination="3Nv-CV-1bH" id="qVd-6A-q7A"/>
+                        <outlet property="answerOneButton" destination="yXd-l2-qlf" id="4Mq-9T-Zzg"/>
+                        <outlet property="answerThreeButton" destination="DSM-Xd-DV9" id="xXi-K4-2za"/>
+                        <outlet property="answerTwoButton" destination="M91-Nh-0iY" id="7v6-O5-M69"/>
+                        <outlet property="playCallButton" destination="WbH-1O-38f" id="V1M-df-vNV"/>
+                        <outlet property="progressBar" destination="TwK-Ii-Wqv" id="PV2-7z-SnR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIj-Ng-tW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="5974"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="C7b-6T-WuX"/>
+        <segue reference="1ju-Iu-vsJ"/>
+        <segue reference="SZW-77-jLY"/>
+        <segue reference="zJF-Vg-BeA"/>
+        <segue reference="Upp-uW-zRU"/>
+        <segue reference="gqA-am-kvj"/>
+        <segue reference="QRZ-Cu-UHC"/>
+        <segue reference="xuT-5a-83J"/>
+        <segue reference="3ru-Uu-u0L"/>
+    </inferredMetricsTieBreakers>
 </document>
