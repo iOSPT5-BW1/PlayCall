@@ -71,11 +71,12 @@ class QuizViewControllerEight: UIViewController {
     @IBAction func answerButtonPressed(_ sender: UIButton) {
         let userAnswer = sender.currentTitle
         let correctAnswer = "E12-MotionZSweep-Snap1"
+        Score.totalCount += 1
+        Score.overallScore.append(Score.totalCount)
         
         if userAnswer == correctAnswer {
             sender.backgroundColor = UIColor.green
             Score.userScore += 1
-            Score.overallScore.append(Score.userScore)
         } else {
             sender.backgroundColor = UIColor.red
         }
