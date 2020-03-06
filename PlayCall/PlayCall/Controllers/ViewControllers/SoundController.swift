@@ -8,7 +8,7 @@
 
 import AVFoundation
 
-class SoundController {
+class SoundController: AudioFileController {
     
     var player: AVAudioPlayer?
     

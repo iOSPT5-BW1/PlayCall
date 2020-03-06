@@ -8,14 +8,12 @@
 
 import Foundation
 
-struct AudioFile {
+struct AudioFile: Codable {
     var audioFileName: String
     var audioFileType: String
-    var audioFileAnswer: String
     
-    init(audioFileName: String, audioFileType: String, audioFileAnswer: String) {
+    init(audioFileName: String, audioFileType: String) {
         self.audioFileName = audioFileName
         self.audioFileType = audioFileType
-        self.audioFileAnswer = audioFileAnswer
     }
 }
