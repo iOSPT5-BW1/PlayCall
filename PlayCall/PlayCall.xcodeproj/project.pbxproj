@@ -55,6 +55,7 @@
 		C3C5415224077FA9001CEB16 /* SportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415124077FA9001CEB16 /* SportController.swift */; };
 		C3C5415424077FBF001CEB16 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415324077FBF001CEB16 /* TeamController.swift */; };
 		C3C54158240A04EE001CEB16 /* PositionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C54157240A04EE001CEB16 /* PositionController.swift */; };
+		C3C5415E2411E498001CEB16 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415D2411E498001CEB16 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		C3C5415124077FA9001CEB16 /* SportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportController.swift; sourceTree = "<group>"; };
 		C3C5415324077FBF001CEB16 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
 		C3C54157240A04EE001CEB16 /* PositionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionController.swift; sourceTree = "<group>"; };
+		C3C5415D2411E498001CEB16 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				128FBEF6240754D4001CCE8A /* Formation.swift */,
 				12C5DB1324109B4A00348314 /* AudioFile.swift */,
+				C3C5415D2411E498001CEB16 /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				C3C5415024077F97001CEB16 /* LevelController.swift in Sources */,
 				128487E72406FD9E000DC6F5 /* AppDelegate.swift in Sources */,
 				1241E0A22411A85E00C00C9C /* QuizViewControllerThree.swift in Sources */,
+				C3C5415E2411E498001CEB16 /* Score.swift in Sources */,
 				128FBEEC240726F1001CCE8A /* TeamSelectionViewController.swift in Sources */,
 				128FBEE8240726CD001CCE8A /* LevelSelectionViewController.swift in Sources */,
 				C3C5415424077FBF001CEB16 /* TeamController.swift in Sources */,
