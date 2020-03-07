@@ -10,5 +10,6 @@ import Foundation
 
 class Score {
     static var userScore = 0
+    static var totalCount = 0
     static var overallScore: [Int] = []
 }

@@ -10,8 +10,7 @@ import UIKit
 
 class PositionSelectionViewController: UIViewController {
     let positionController = PositionController()
-    
-    var selectedSport = SportSelectionViewController.selectedSport!
+    var selectedSport = SportSelectionViewController.selectedSport ?? "Baseball"
     
     static var selectedPosition: String?
     
@@ -27,8 +26,9 @@ class PositionSelectionViewController: UIViewController {
         }
         if selectedSport  == "Soccer"{
             return positionController.soccerPositions
-        }
+        } else {
         return ["ERROR IN POSITION ELECTION"]
+        }
     }
     
     @IBOutlet var positionPickerView: UIPickerView!
