@@ -17,6 +17,7 @@
 		1241E0AE2411A8B300C00C9C /* QuizViewControllerNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241E0AD2411A8B300C00C9C /* QuizViewControllerNine.swift */; };
 		1241E0B02411A8D500C00C9C /* QuizViewControllerTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241E0AF2411A8D500C00C9C /* QuizViewControllerTen.swift */; };
 		1241E0B22411CA6200C00C9C /* QuizFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241E0B12411CA6200C00C9C /* QuizFinishedViewController.swift */; };
+		1241E0B72411F4A400C00C9C /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241E0B62411F4A400C00C9C /* Score.swift */; };
 		125D6281240E04AE00BD145C /* FormationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125D6280240E04AE00BD145C /* FormationSelectionViewController.swift */; };
 		125D6283240E15CD00BD145C /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125D6282240E15CD00BD145C /* Quiz.storyboard */; };
 		125D6294240E1AFA00BD145C /* E12-BubbleYSwitch-Snap3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 125D628A240E1AF800BD145C /* E12-BubbleYSwitch-Snap3.mp3 */; };
@@ -55,7 +56,6 @@
 		C3C5415224077FA9001CEB16 /* SportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415124077FA9001CEB16 /* SportController.swift */; };
 		C3C5415424077FBF001CEB16 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415324077FBF001CEB16 /* TeamController.swift */; };
 		C3C54158240A04EE001CEB16 /* PositionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C54157240A04EE001CEB16 /* PositionController.swift */; };
-		C3C5415E2411E498001CEB16 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5415D2411E498001CEB16 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +69,7 @@
 		1241E0AD2411A8B300C00C9C /* QuizViewControllerNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewControllerNine.swift; sourceTree = "<group>"; };
 		1241E0AF2411A8D500C00C9C /* QuizViewControllerTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewControllerTen.swift; sourceTree = "<group>"; };
 		1241E0B12411CA6200C00C9C /* QuizFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinishedViewController.swift; sourceTree = "<group>"; };
+		1241E0B62411F4A400C00C9C /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		125D6280240E04AE00BD145C /* FormationSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormationSelectionViewController.swift; sourceTree = "<group>"; };
 		125D6282240E15CD00BD145C /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		125D628A240E1AF800BD145C /* E12-BubbleYSwitch-Snap3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "E12-BubbleYSwitch-Snap3.mp3"; sourceTree = "<group>"; };
@@ -109,7 +110,6 @@
 		C3C5415124077FA9001CEB16 /* SportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportController.swift; sourceTree = "<group>"; };
 		C3C5415324077FBF001CEB16 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
 		C3C54157240A04EE001CEB16 /* PositionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionController.swift; sourceTree = "<group>"; };
-		C3C5415D2411E498001CEB16 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +227,7 @@
 			children = (
 				128FBEF6240754D4001CCE8A /* Formation.swift */,
 				12C5DB1324109B4A00348314 /* AudioFile.swift */,
-				C3C5415D2411E498001CEB16 /* Score.swift */,
+				1241E0B62411F4A400C00C9C /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,7 +383,7 @@
 				C3C5415024077F97001CEB16 /* LevelController.swift in Sources */,
 				128487E72406FD9E000DC6F5 /* AppDelegate.swift in Sources */,
 				1241E0A22411A85E00C00C9C /* QuizViewControllerThree.swift in Sources */,
-				C3C5415E2411E498001CEB16 /* Score.swift in Sources */,
+				1241E0B72411F4A400C00C9C /* Score.swift in Sources */,
 				128FBEEC240726F1001CCE8A /* TeamSelectionViewController.swift in Sources */,
 				128FBEE8240726CD001CCE8A /* LevelSelectionViewController.swift in Sources */,
 				C3C5415424077FBF001CEB16 /* TeamController.swift in Sources */,

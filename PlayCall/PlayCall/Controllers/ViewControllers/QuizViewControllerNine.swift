@@ -74,8 +74,6 @@ class QuizViewControllerNine: UIViewController {
         
         if userAnswer == correctAnswer {
             sender.backgroundColor = UIColor.green
-            Score.userScore += 1
-            Score.overallScore.append(Score.userScore)
         } else {
             sender.backgroundColor = UIColor.red
         }

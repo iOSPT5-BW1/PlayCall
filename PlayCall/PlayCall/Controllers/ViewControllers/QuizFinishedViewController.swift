@@ -9,9 +9,15 @@
 import UIKit
 
 class QuizFinishedViewController: UIViewController {
-
+    
+    @IBOutlet weak var userFinalScoreLabel: UILabel!
+    
+    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
+    
+    
 }

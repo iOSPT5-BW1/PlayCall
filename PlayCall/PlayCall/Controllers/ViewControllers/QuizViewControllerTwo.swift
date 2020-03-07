@@ -11,7 +11,6 @@ import UIKit
 class QuizViewControllerTwo: UIViewController {
     
     var soundController = SoundController()
-    var score = Score()
     
     @IBOutlet weak var playCallButton: UIButton!
     @IBOutlet weak var answerOneButton: UIButton!
@@ -74,8 +73,6 @@ class QuizViewControllerTwo: UIViewController {
         
         if userAnswer == correctAnswer {
             sender.backgroundColor = UIColor.green
-            Score.userScore += 1
-            Score.overallScore.append(Score.userScore)
         } else {
             sender.backgroundColor = UIColor.red
         }

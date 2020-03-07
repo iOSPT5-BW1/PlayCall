@@ -20,6 +20,8 @@ class QuizViewControllerOne: UIViewController {
     var audioFileController = AudioFileController()
     var soundController = SoundController()
     
+    var score = Score()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -72,8 +74,7 @@ class QuizViewControllerOne: UIViewController {
         
         if userAnswer == correctAnswer {
             sender.backgroundColor = UIColor.green
-            Score.userScore += 1
-            Score.overallScore.append(Score.userScore)
+            
         } else {
             sender.backgroundColor = UIColor.red
         }

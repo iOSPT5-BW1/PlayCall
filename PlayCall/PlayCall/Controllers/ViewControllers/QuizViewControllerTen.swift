@@ -70,10 +70,15 @@ class QuizViewControllerTen: UIViewController {
         let userAnswer = sender.currentTitle
         let correctAnswer = "E12-SlantRightX-Snap2"
         
+        if sender.tag == 0 {
+            fdsfdsafadsf
+        } else if sender.tag == 1 {
+            
+        }
+        
         if userAnswer == correctAnswer {
             sender.backgroundColor = UIColor.green
-            Score.userScore += 1
-            Score.overallScore.append(Score.userScore)
+            
         } else {
             sender.backgroundColor = UIColor.red
         }
